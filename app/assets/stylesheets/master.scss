@@ -1,6 +1,22 @@
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@font-face {
+    font-family: 'chunkfive_printregular';
+    src: font_url('chunk_five_print-webfont.woff2') format('woff2'),
+         font_url('chunk_five_print-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: font_url('chunkfive-regular-webfont.woff2') format('woff2'),
+         font_url('chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .booyah-box {
     -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
     -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -30,7 +46,6 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: #E3E85A;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 550;
-    letter-spacing: 0.4px;
+    font-family: 'chunkfiveregular', sans-serif;
+    font-size: 26px;
   }
