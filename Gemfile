@@ -31,6 +31,7 @@ gem 'font-awesome-rails'
 gem 'devise'
 
 gem 'figaro'
+gem "geocoder"
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'

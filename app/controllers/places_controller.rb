@@ -6,7 +6,7 @@ class PlacesController < ApplicationController
 	end
 
 	def new
-		@places = Place.new
+		@place = Place.new
 	end
 
 #The place_params part is what pulls the values of name, description and address from the place form. Then the Place.create is what actually sends the item to the database.
@@ -21,6 +21,7 @@ class PlacesController < ApplicationController
 
 	def show
 		@place = Place.find(params[:id])
+		@comment = Comment.new
 	end
 
 	def edit
