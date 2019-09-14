@@ -74,7 +74,7 @@ blockquote {
     quotes: "\201C""\201D""\2018""\2019";
   }
   
-  blockquote:before {
+blockquote:before {
     color: #ccc;
     content: open-quote;
     font-size: 4em;
@@ -82,7 +82,7 @@ blockquote {
     margin-right: 0.25em;
     vertical-align: -0.4em;
   }
-  
-  blockquote p {
+
+blockquote p {
     display: inline;
   }
